@@ -1,0 +1,637 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+/* =============== Navegacion =============== */
+
+nav {
+    background: black
+}
+
+.toggle-menu button {
+    background-color: transparent;
+    border: none;
+}
+
+.toggle-menu {   
+    top: 1rem;
+    width: 100%;
+    text-align: right;
+    z-index: 0;
+    position: absolute;
+}
+
+.toggle-menu i {
+    padding: 7px 20px;
+    font-size: 1.4rem;
+    color: crimson;
+}
+
+.main-menu_item, a {
+    list-style: none;
+    color: white;
+    text-decoration: none ;
+    font-size: 1.1rem;
+    
+    font-family: sans-serif; 
+    font-weight: 900;
+    text-align: center;
+}
+
+.main-menu li a {   
+    transition: all 0.6s ease; 
+}
+
+ul li a:hover {
+    padding: 5px 10px;
+    background: #fff;
+    color: black;
+    border-radius: 15px;
+}
+
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    list-style: none;
+    transition: 1.2s;
+}
+
+nav li {
+   padding: 10px 0;   
+}
+
+.hidden {
+    height: 0;
+    overflow: auto;
+}
+
+/* ================ Intro ================ */
+/*.intro {
+    height: 100vh;
+    background-color: #242635;
+}
+*/
+
+/*
+.container {
+    width: 100%;
+    max-width: 1080px;
+    padding-top: 20px;
+}
+*/
+
+.z-index {
+    z-index: 0;
+}
+
+.container-principal {
+    padding: 50px 0 60px 0;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title-soy {
+    font-size: 7vw;
+    color: #fff
+}
+
+.title-name {
+    
+    color: crimson;
+    font-size: 9vw;
+}
+
+.title-junior {
+    color: crimson;
+    font-size: 4vw;
+    font-weight: 600;
+}
+
+.title-developer {
+    font-size: 4.5vw;
+    color: #fff;
+    font-weight: 600;
+}
+
+.mt-5vw {
+    margin-top: 5vw;
+}
+
+h1 {
+    position: relative;
+    font-size: 4.5vw;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.linea {
+    border-top: 2px solid #fff;
+    
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.img-container {
+    display: flex;
+    width: 95%;
+    position: absolute;
+    justify-content: center;
+}
+
+.circle-img {
+    text-align: center;  
+    width: 69%;
+    background: linear-gradient(to right, rgb(255 255 255 / 0%), rgb(157 157 157 / 48%));
+    border-radius: 50%;   
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.container .img-container .circle-img img {
+    width: 61vw;
+    padding: 12%;   
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.icons { 
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2vw;
+}
+
+.icons-size {
+    font-size: 2.5vw;
+}
+
+.icons span {
+    background: linear-gradient(to right, rgb(98 98 98), rgb(255 255 255));
+    padding: 4%;
+    border-radius: 50%;
+    width: 5vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.container-sub-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sub-icons {
+    margin-top: 25vw;
+    width: 80vw;
+    padding: 3% 12px;
+    background: -webkit-linear-gradient(90deg,#2c2c2c 3%,rgb(106 106 106)),-webkit-linear-gradient(347deg,#8d4444,#a87a7a 50%,#ffffff);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 16px;
+    z-index: 0;
+}
+
+.sub-icons span {
+    background: linear-gradient(to right, rgb(255 255 255), rgb(0 0 0 / 38%));
+    padding: 3% 6%;
+    border-radius: 10px;
+}
+
+p {
+   color: #fff;
+   line-height: 1.4em
+}
+
+/* subtitle seccion */
+h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: system-ui;
+    color: crimson;
+    margin-bottom: 50px;
+}
+
+
+h4 {
+    color: #444444;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    font-family: system-ui;
+    text-align: center;
+}
+
+/* ======================= Acerca de mi ========================= */
+
+.seccion-acercademi {
+    padding: 80px 0; 
+    background: #0a10105e;;
+}
+
+.acerca-de-mi { 
+    margin: auto; 
+    text-align: center;
+}
+
+
+/* ====================== Servicios ====================*/
+
+/* ================ cajas servicios ==============*/
+
+.seccion-servicios {
+    padding: 80px 0; 
+    background-color: white;
+}
+
+.container-servicios {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    flex-direction: row;   
+}
+
+
+.caja-servicios {
+    margin: 12px 25px;
+    display: block;
+    background: linear-gradient(to right, rgb(171 166 166 / 0%), rgb(157 157 157 / 28%));
+    align-items: center;
+    min-width: 300px;
+    border-radius: 15px;
+}
+
+.container-servicios::-webkit-scrollbar {
+    background: rgb(236, 249, 236);
+    width: 12px;
+    border-radius: 50%;
+    
+}
+
+.container-servicios::-webkit-scrollbar-thumb {
+    background: linear-gradient(to top, #ffffffa6, crimson 80%, #16161600);
+    border-radius: 20px;
+}
+
+.caja-img {
+    margin: auto;
+    width: 95%;
+}
+
+.p-icon {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    top: 15%;
+    flex-direction: column;   
+}
+
+
+.caja-servicios img  {
+    width: 100%;
+    padding: 0;
+    margin: auto;    
+}
+
+.caja-servicios p {
+    padding: 0 30px;
+    padding-top: 20px;
+    margin-bottom: 25px;
+    font-size: 1em;
+    color: #242635;
+    color: black;
+}
+
+
+/* personalizacion de icons */
+
+.icon-html5 i {
+    font-size: 80px;
+    color: rgb(255, 94, 0);
+}
+
+.icon-css i {
+    font-size: 80px;
+    color: rgb(0, 102, 255);;
+}
+
+.icon-js i {
+    font-size: 80px;
+    color: rgb(255, 174, 0);;
+}
+
+.icon-react i {
+    font-size: 80px;
+    color: rgb(38, 174, 253);;
+}
+
+.icon-nodejs i {
+    font-size: 80px;
+    color: #3C873A;;
+}
+/* === */
+
+/* Shadow - box === caja servicios */
+.shadow-html {
+    box-shadow: 0 0 7px rgb(255, 94, 0);;
+}
+.shadow-css {
+    box-shadow: 0 0 7px rgb(0, 102, 255);;
+}
+.shadow-js {
+    box-shadow: 0 0 7px rgb(255, 174, 0);;
+}
+.shadow-react {
+    box-shadow: 0 0 7px rgb(38, 174, 253);;
+}
+.shadow-nodejs {
+    box-shadow: 0 0 8px #3C873A
+}
+/*==*/
+
+
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-start {
+    justify-content: start;
+}
+
+
+/* =============== MIS HABILIDADES =================/ */
+
+.seccion-habilidades {
+    padding: 80px 0;
+
+}
+.container-habilidades {
+    width: 80%;
+    margin: auto;
+}
+
+.caja-progress {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.caja-progress span {
+    color: crimson;
+    font-size: 2vmin;     
+}
+
+.caja-progress p {
+    font-size: 1.2rem;
+    color: ghostwhite;
+    margin-top: 20px;
+}
+
+/* =============== Progress ============== */
+
+.progress {
+    background-color: #ffff;
+    justify-content: start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 2px;
+    display: flex;
+    height: 10px;
+    width: 100%;
+  }
+  
+  .progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -20px #fff;
+    border-radius: 100px;
+    background: linear-gradient(to top, #ffffffa6, crimson 80%, #16161600);
+    height: 10px;
+    width: 0;
+  }
+  
+
+/* load principal HTML */
+
+  @keyframes load { 
+    0% { width: 0; }
+    100% { width: 95%; }  
+  }
+
+/* Load next */
+
+.load-css {
+    animation: load-1 3s normal forwards;
+}
+
+@keyframes load-1 { 
+    0% { width: 0; }
+    100% { width: 92%; }  
+}
+
+
+.load-javascript {
+    animation: load-2 3s normal forwards;
+}
+
+@keyframes load-2 { 
+    0% { width: 0; }
+    100% { width: 90%; }  
+}
+
+
+.load-nodejs {
+    animation: load-3 3s normal forwards;
+}
+
+@keyframes load-3 { 
+    0% { width: 0; }
+    100% { width: 85%; }  
+}
+
+
+.load-react {
+    animation: load-4 3s normal forwards;
+}
+
+@keyframes load-4 { 
+    0% { width: 0; }
+    100% { width: 87%; }  
+}
+
+
+/* text contador % === load (-3) */
+
+.m-html5 {
+    margin-left: 92%;   
+}
+
+.m-css {
+    margin-left: 89%;    
+}
+
+.m-javascript {
+    margin-left: 87%;
+}
+
+.m-react {
+    margin-left: 85%;
+}
+
+.m-nodejs {
+    margin-left: 82%;
+}
+
+/*  ==================  */
+
+
+/* ========================= Mi portafolio ======================== */
+
+.seccion-portafolio {
+    padding: 80px 0;
+}
+
+.container-portafolio {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.portafolio-caja {
+    display: block;
+    min-width: 300px;
+    margin: 50px 20px 5px;
+}
+
+.portafolio-caja img {
+   width: 100%; 
+   padding: 0;
+}
+
+.container-portafolio::-webkit-scrollbar {
+    background: none; 
+}
+
+.container-portafolio::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, rgb(205 202 202), rgb(255 255 255 / 62%));
+    border-radius: 20px;
+}
+
+
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+
+/* ====================== Contacto ==================== */
+
+.seccion-contacto {
+    padding: 30px 0;
+}
+.container-contacto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+.container-celular {
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.container-email {
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.card-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 170px;
+    background-color: #fff;
+    background: linear-gradient(to right, rgb(255 255 255 / 42%), rgb(255 255 255 / 82%));
+    border-radius: 10px;
+}
+
+.card-contacto i {
+    font-size: 50px;
+    color: crimson
+    
+}
+
+.card-contacto h5 {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.card-contacto p {
+    font-size: 1rem;
+    color: black;
+}
+ 
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(150 147 147 / 14%), rgb(255 255 255 / 61%));
+    height: 55px;
+    
+}
+footer p {
+    color: crimson
+}
+
+

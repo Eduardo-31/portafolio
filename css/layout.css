@@ -1,0 +1,316 @@
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+
+
+
+
+@media  (min-width: 760px) {
+    
+    #menu { 
+        background-color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        flex-wrap: wrap;
+        height: 50px;
+        margin: auto;
+        position: fixed;
+        margin: auto;
+        width: 100%;     
+        z-index: 1;
+        text-align: center;
+    }
+
+    ul li {
+        margin: 0 20px; 
+    }
+    
+    .main-menu li a {   
+        transition: all 0.6s ease; 
+        color: black;
+    }
+
+    ul li a:hover {
+        padding: 5px 10px;
+        background: crimson;
+        color: #fff;
+        border-radius: 15px;
+    }
+
+    .toggle-menu {
+        display: none;
+    }
+
+    .container-principal {
+        padding: 40px 0 100px 0;
+    }
+
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+
+    .circle-img {
+        width: 57%;
+    }
+
+    .container .img-container .circle-img img {
+        width: 48vw;
+        padding: 15%;
+    }
+
+    .margin-top { 
+        margin-top: 12.5vw;
+    }
+
+    
+    .sub-icons {
+        margin-top: 12vw;
+        width: 68vw;
+        padding: 3% 1%;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 16px;
+    }
+/*
+    .icons span {
+        padding: 7%;
+    }
+
+    .icons span i {
+        font-size: x-large;
+    }
+
+    .sub-icons span i {
+        font-size: 1.9rem;
+    }
+*/
+    .container {
+        margin-top: 10px;
+    }
+
+    h3 {
+        font-size: 2.7rem;
+    }
+
+    p {
+        font-size: 18px;
+    } 
+
+    h4 {
+        font-size: 1.5rem;
+    }
+    h6 {
+        color: gray;
+    }
+
+
+    /*==== Progress ==== */
+
+    .container-habilidades {
+        width: 70%;
+    }
+
+    .caja-progress p {
+        font-size: 1.5rem;
+        color: ghostwhite;
+        margin-top: 30px;
+    }
+
+    .progress {
+        height: 12px;
+    }
+    .progress-value {
+        height: 12px;
+    }
+
+    /* ======= Portafolio =======*/
+
+
+    .container-portafolio {
+        min-width: 400px;
+        flex-direction: column;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 1200px) {
+
+    h3 {
+        font-size: 3.5rem;
+        margin-bottom: 100px;
+    }
+
+    h4 {
+        font-size: 1.8rem;
+    }
+
+    .main-menu a {
+        font-size: 1.3rem;
+    }
+
+    .sub-icons span i {
+        font-size: 2.5rem;
+        margin: auto;
+    }
+    /*
+    .icons span i {
+        font-size: 2rem;
+    }
+    */
+    /* ===== Acerca de mi ======= */
+
+    .seccion-acercademi {
+        padding: 150px 0;
+    }
+
+    .acerca-de-mi {
+        width: 70%;
+    }
+
+
+    /* ====== Servicios ====== */
+
+    .seccion-servicios {
+        padding: 200px 0;
+    }
+    .container-servicios {
+        width: 90%;
+        margin: auto;
+    }
+
+    .caja-servicios {
+        min-width: 360px
+    }
+
+    .caja-servicios p {
+        font-size: 20px;
+    }
+
+    /* ======= Portafolio ========= */
+
+   .portafolio-caja {
+       min-width: 900px
+   }
+   .caja-servecios {
+       min-width: 900px;
+   }
+
+
+   /*===== Progress */
+   .seccion-acercademi {
+        padding: 200px 0; 
+    }
+   .progresss {
+       height: 30px;
+    }
+    .progresss-value {
+        height: 30px;
+    }
+
+    .caja-progress p {
+        font-size: 1.8rem;
+        color: ghostwhite;
+        margin-top: 35px;
+    }
+
+
+    .seccion-habilidades {
+        padding: 150px 0;
+    }
+
+    .seccion-servicios {
+        padding: 150px 0;
+    }
+
+    .seccion-portafolio {
+        padding: 150px 0;
+    }
+
+    .seccion-contacto {
+        padding: 150px 0;
+    }
+
+    /* ====== Habilidades ======= */
+
+    .container-habilidades {
+        width: 66%
+    }
+
+
+    .container-email, .container-celular {
+        max-width: 53%
+    }
+
+
+
+
+    .card-contacto {
+        width: 300px;
+        height: 200px;
+        border-radius: 15px;
+    }
+
+    .card-contacto i {
+        font-size: 60px;     
+    }
+    
+    .card-contacto h5 {
+        font-size: 1.3rem;
+        margin: 15px 0;
+    }
+    
+    .card-contacto p {
+        font-size: 1.3rem;
+    }
+
+    footer {
+        height: 7vh;
+
+    }
+
+    footer p {
+        font-size: 1.5rem;
+    }
+
+}
+ 

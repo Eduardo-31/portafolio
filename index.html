@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/my.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <script src="https://kit.fontawesome.com/35258486cf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+        <div class="toggle-menu">          
+            <button onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </button>      
+        </div> 
+
+        <nav> 
+            <ul id="menu" class="main-menu hidden"> 
+                <li class="main-menu_item">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="main-menu_item">
+                    <a href="#servicios">Servicios</a>
+                </li>
+                <li class="main-menu_item">
+                    <a href="#acercademi">Acerca de mi</a>
+                </li>
+                <li class="main-menu_item">
+                    <a href="#habilidades">Mis habilidades</a>
+                </li>
+                <li class="main-menu_item">
+                    <a href="#portafolio">Mi portafolio</a>
+                </li>
+                <li class="main-menu_item">
+                    <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>    
+        <script src="menu.js" ></script>
+
+
+
+    <div id="home" class="container-principal">
+        <div class="container">
+            <div class="img-container">
+                <div class="circle-img">
+                    <img src="img/img-face.png" alt="">
+                </div>               
+            </div>
+            <div class="col-12 d-flex">
+                <div class="z-index col-6">
+                    <span class="title-soy">Soy</span>
+                    <h2 class="title-name">Eduardo</h2>
+                    <div class="d-flex">
+                        <div class="linea">
+                            <h1>Desarrollador <br>Full Stack</h1>
+                        </div>
+                    </div>
+                </div>           
+                <div class="z-index mt-5vw col-6 d-flex justify-content-end">
+                    <div>
+                        <span class="title-junior">Junior</span>  <br>
+                        <span class="title-developer">Developer</span>
+                        <div id="icons" class="icons d-flex">
+                            <span>
+                                <i class="fa-brands fa-linkedin-in icons-size"></i>
+                            </span>
+                            <span>
+                                <i class="fa-brands fa-instagram icons-size"></i>
+                            </span>
+                            <span>
+                                <i class="fa-brands fa-twitter icons-size"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-sub-icons">
+                <div class="z-index sub-icons">
+                    <span>
+                        <i class="fa-brands fa-google fa-xl"></i>
+                    </span>
+                    <span>
+                        <i class="fa-brands fa-amazon fa-xl"></i>
+                    </span>
+                    <span>
+                        <i class="fa-brands fa-spotify fa-xl"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+        <!--  seccion acerca de mi-->
+
+        <div id="acercademi" class="seccion-acercademi">
+            <div class="acerca-de-mi col-10">
+                <h3>Acerca de mi</h3>
+                <div>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus ex culpa sed, dolore ullam magni repudiandae cupiditate doloremque itaque nisi, saepe ipsa perferendis quod at est illum porro delectus perspiciatis.
+                        Digniss culpa illum aliquam veritatis soluta mollitia rerum accusantium repellat quae consequuntur quo laborum dolorum animi at. Repellat, reprehenderit quibusdam! Voluptatibus.
+                        Totam animi provident minus, quibusdam ipsa adipisci voluptatum ullam maiores laboriosam magnam iusto nihil itaque repudiandae nam molestiae, earum a atque consequuntur ipsum aperiam hic suscipit deleniti laudantium. Odit, quisquam.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Seccion Servicios -->
+    
+        <div id="servicios" class="seccion-servicios">
+            <div>
+                <h3>Servicios</h3>
+            </div>
+        
+            <div class="container-servicios ">
+                <div class="caja-servicios shadow-html p-relative">
+                    <div class="caja-img">
+                        <img src="img/Ellipse 14.svg" alt="">
+                    </div>
+                    <div class="p-icon icon-html5">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                        <h4>HTML5</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, accusantium nobis. Earum inventore animi possimus dicta quas ea amet soluta. Suscipit blanditiis laborum harum porro esse. Corrupti neque recusandae consectetur?</p>
+                </div>
+                <div class="caja-servicios shadow-css p-relative">
+                    <div class= "caja-img ">
+                        <img src="img/Ellipse 14.svg" alt="">
+                    </div>
+                    <div class="p-icon icon-css">
+                        <i class="fa-brands fa-css3-alt"></i>
+                   </div>
+                   <h4>CSS</h4>
+                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, accusantium nobis. Earum inventore animi possimus dicta quas ea amet soluta. Suscipit blanditiis laborum harum porro esse. Corrupti neque recusandae consectetur?</p>
+                </div>
+                <div class="caja-servicios shadow-js p-relative">
+                    <div class="caja-img">
+                        <img src="img/Ellipse 14.svg" alt="">
+                    </div>
+                    <div class="p-icon icon-js">
+                        <i class="fa-brands fa-js-square"></i>
+                    </div>
+                    <h4>JavaScript</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, accusantium nobis. Earum inventore animi possimus dicta quas ea amet soluta. Suscipit blanditiis laborum harum porro esse. Corrupti neque recusandae consectetur?</p>
+                </div>
+                <div class="caja-servicios shadow-react p-relative">
+                    <div class="caja-img">
+                        <img src="img/Ellipse 14.svg" alt="">
+                    </div>
+                    <div class="p-icon icon-react">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <h4>React</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, accusantium nobis. Earum inventore animi possimus dicta quas ea amet soluta. Suscipit blanditiis laborum harum porro esse. Corrupti neque recusandae consectetur?</p>
+                </div>
+                <div class="caja-servicios shadow-nodejs p-relative">
+                    <div class="caja-img">
+                        <img src="img/Ellipse 14.svg" alt="">
+                    </div>
+                    <div class="p-icon icon-nodejs"> 
+                        <i class="fa-brands fa-node-js"></i>
+                    </div>
+                    <h4>Node.js</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, accusantium nobis. Earum inventore animi possimus dicta quas ea amet soluta. Suscipit blanditiis laborum harum porro esse. Corrupti neque recusandae consectetur?</p>
+                </div>               
+            </div>
+        </div>
+
+
+        <!--   Progresss - seccion mis Habilidad-->
+
+
+        <div id="habilidades" class="seccion-habilidades">
+
+        <div>
+            <h3>Mis habilidades</h3>
+        </div>
+        <div class="container-habilidades">
+            <div class="caja-progress">
+                <div class="col-12">
+                    <p>HTML5</p>
+                    <span class="m-html5">95%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-value"></div>               
+                </div>
+            </div>
+
+            <div class="caja-progress">
+                <div class=" col-12">
+                    <p>CSS</p>
+                    <span class="m-css">92%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-value load-css"></div>               
+                </div>
+            </div>
+
+            <div class="caja-progress">
+                <div class="col-12">
+                    <p>JavaScript</p>
+                    <span class="m-javascript">90%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-value load-javascript"></div>               
+                </div>
+            </div>
+
+            <div class="caja-progress">
+                <div class="col-12">
+                    <p>React</p>
+                    <span class="m-react">87%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-value load-react"></div>               
+                </div>
+            </div>
+
+            <div class="caja-progress">
+                <div class="col-12">
+                    <p>Node.js</p> 
+                    <span class="m-nodejs">85%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-value load-nodejs"></div>               
+                </div>
+            </div>
+        </div>
+
+        </div>
+        
+        <!-- Mi Portafolio -->
+        <div id="portafolio" class="seccion-portafolio">
+            <div>
+                <h3>Mi Portafolio</h3>
+            </div>
+            <div class="container-portafolio">
+                <div class="portafolio-caja">
+                    <img class="caja img" src="img/img-4.jpg" alt="">
+                </div>
+                <div class="portafolio-caja">
+                    <img src="img/img-1.jpg" alt="">
+                </div>
+                <div class="portafolio-caja">
+                    <img src="img/img-3.jpg" alt="">
+                </div>
+                <div class="portafolio-caja">
+                    <img class="caja img" src="img/img-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Contacto-->
+
+        <div id="contacto" class="seccion-contacto">
+            <div> 
+                <h3>Contacto</h3>
+            </div>
+            <div class="container-contacto">
+                <div class="container-celular">
+                    <div class="card-contacto">
+                        <span>
+                            <i class="fa-solid fa-phone"></i>
+                        </span>
+                            <h5>Numero de celular</h5>
+                            <p>+51 944800327</p>
+                    </div>
+                </div>
+
+                <div class="container-email">
+                    <div class="card-contacto">
+                        <span>
+                            <i class="fa-solid fa-envelope"></i>
+                        </span>
+                        <h5>Email</h5>
+                        <p>thelincoln31@gmail.com</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <footer>
+            <p> Hecho con <i class="fa-solid fa-heart"></i> en Acacemlo  </p> <br>
+        </footer>
+</body>
+</html>
+
